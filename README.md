@@ -4,7 +4,7 @@ pyscan is an extremely simple port scanner. I mainly wrote this program for just
 
 Example of usuage: 
 
-```bash
+```python
 pyscan.py -h
 usage: pyscan.py [-h] -i  -p
 
@@ -17,7 +17,7 @@ options:
 ```
 Example of scanning Google on 53, 80, 443:
 
-```bash
+```python
 ./pyscan.py -i 8.8.8.8 -p 53 80 443
 [+] IP = 8.8.8.8
 [+] Port = [53, 80, 443]
