@@ -31,10 +31,10 @@ def main():
     
     # If input is correct then the program will start the scan. Otherwise, the program will stop.
     if info == "y" or info == 'yes':
-        print("[+] Starting scan...")
+        print("[+] Initializing scan...")
         scan(ip, port)
     else:
-        print("")
+        print("[-] Aborting... ")
 
 
 if __name__ == "__main__":
