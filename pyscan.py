@@ -4,9 +4,11 @@ import socket
 
 
 def scan(ip, port):
+    # Does the magic
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     socket.setdefaulttimeout(1)
      
+    # Prints the results
     result = s.connect_ex((ip,port))
     if result ==0:
         print("\nPort {} is open".format(port))
