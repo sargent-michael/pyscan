@@ -18,6 +18,8 @@ options:
 Example of scanning Google on 443:
 
 ```bash
+./pyscan.py -i 8.8.8.8 -p 443 
+
 [+] IP = 8.8.8.8
 [+] Port = 443
 [+] Continue? yes
